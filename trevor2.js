@@ -7,9 +7,9 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '514881223261290516') return;
+  if(member.guild.id !== '537968114340724746') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '533730782993186827').send('*Welcome to BubblesAvatar.*');
+  member.guild.channels.find(r => r.id === '537969708545343508').send('*Welcome to BubblesAvatar.*');
 },3000);
 });
 client.login(process.env.BOT_TOKEN);
